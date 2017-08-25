@@ -24,11 +24,7 @@ layout: page
     </font>
     <font size="4">
         <p>
-            Apart from <strong>programming</strong>, I am also incredibly passionate about <strong>music</strong>. I listen to a wide variety of music with a particular liking for <strong>Classic Rock</strong>. Other genres I enjoy are <strong>70s Pop</strong>, <strong>Country</strong>, <strong>Blues</strong>, <strong>Jazz</strong> and <strong>Western Classical</strong>. 
-        </p>
-        <p>
-            I am a <strong>Classical Pianist</strong> and an <strong>Acoustic Guitarist</strong> (both self-taught) with some basic training in <strong>Music Theory</strong>. 
-            I have been playing the Piano since 2003 and can play most songs <strong>by ear</strong>. I started learning <strong>fingerstyle guitar</strong> in 2016 during my free time. If you would like to hear me play, check me out on <a href="https://soundcloud.com/ashwin_pilgaonkar">SoundCloud</a> or <a href="https://www.youtube.com/channel/UCtwmwjPenrE-JeNxLvY9UGA">YouTube</a>. <img src="{{site.baseurl}}/assets/images/soundcloud.png" style="width:23px;height:16px;">
+            Apart from <strong>programming</strong>, I am also incredibly passionate about <strong>music</strong>.I am a <strong>Classical Pianist</strong> and an <strong>Acoustic Guitarist</strong> with some basic training in <strong>Music Theory</strong>. If you would like to hear me play, check me out on <a href="https://soundcloud.com/ashwin_pilgaonkar">SoundCloud</a> or <a href="https://www.youtube.com/channel/UCtwmwjPenrE-JeNxLvY9UGA">YouTube</a>. <img src="{{site.baseurl}}/assets/images/soundcloud.png" style="width:23px;height:16px;">
         </p>
     </font>
 </center>
