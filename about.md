@@ -8,7 +8,6 @@ layout: page
     <font size="4">
         <p>
             <br>
-            I spend my free time online, trying to learn new things that I find fascinating. I am more inclined to self learning and believe in practically applying knowledge that I acquire.
             My interests lie in the fields of <strong>Machine Learning</strong>, <strong>Computer Vision</strong> and <strong>Android app Development</strong>. I am expecting to complete my undergraduate degree from <strong>NIIT University</strong> in <strong>2018</strong>.
             <br>
             <br>
