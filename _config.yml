@@ -14,7 +14,7 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: Resume_AshwinPilgaonkar.pdf
+resume-url: {{site.baseurl}}/Resume_AshwinPilgaonkar.pdf
 
 url: https://ashwinpilgaonkar.github.io
 # your url: http://USERNAME.github.io
@@ -39,7 +39,7 @@ disqus:
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: ashwin-pilgaonkar-69aa51b5
+linkedin: ashwinpilgaonkar
 youtube: channel/UCtwmwjPenrE-JeNxLvY9UGA
 # spotify: myspotify
 github: ashwinpilgaonkar
