@@ -1,3 +1,88 @@
+.mclass
+    background-color: #000000
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700")
+.outter 
+    width: 100% 
+    height: 100% 
+    display: flex 
+    flex-direction: column 
+    justify-content: center 
+
+.video-container 
+    width: 100% 
+    min-height: 100vh
+    position: relative 
+    overflow: hidden 
+
+.video 
+    object-fit: cover 
+    position: absolute  
+    min-height: 100vh
+    top: 0 
+    left: 0 
+
+.video-container 
+    &:after 
+        content: '' 
+        display: block 
+        height: 100% 
+        width: 100% 
+        position: absolute 
+        top: 0 
+        left: 0 
+        background: rgba(white, 0.7) 
+        z-index: 1 
+
+.callout 
+    position: relative 
+    display: flex 
+    justify-content: center 
+    align-items: center 
+    flex-direction: column 
+    height: 100% 
+    text-align: center 
+    position: relative 
+    z-index: 10 
+    width: 70% 
+    margin: auto 
+
+.fade-in-animate
+    max-width: 95vw
+    animation: fadeInAnimation ease 1.5s
+
+    @keyframes fadeInAnimation
+        0%
+            opacity: 0
+        35%
+            opacity: 0
+        100%
+            opacity: 1
+
+.fade-in-animate-home
+    animation: fadeInAnimation ease 0.9s
+
+    @keyframes fadeInAnimation
+        0%
+            opacity: 0
+        35%
+            opacity: 0
+        100%
+            opacity: 1
+
+.img-dims
+    display: block
+    max-width: 230px
+    max-height: 95px
+    width: auto
+    height: auto
+
+.space-images
+    justify-content: space-around
+    border: 1px solid rgba(0,0,0,0.1)
+    padding: 30px
+    border-radius: 50px
+
 .page
     margin-top: 125px
 

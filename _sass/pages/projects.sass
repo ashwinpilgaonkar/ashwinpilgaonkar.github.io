@@ -9,7 +9,38 @@
       margin-right: 40px
       margin-left: 60px
 
+.flexbox-container-side-by-side
+  display: -ms-flex
+  display: -webkit-flex
+  display: flex
+  > div
+    width: 50%
+    padding: 10px   
+
+.text-side-by-side
+  text-align: left
+
+.text-side-by-side-container
+  width: auto !important
+    
+
+.flexbox-vertical
+  display: -ms-flex
+  display: -webkit-flex
+  display: flex
+  text-align: left
+  > div
+    padding: 10px   
+
 @media screen and (max-width: 750px)
   .flexbox-container
     flex-wrap: wrap-reverse
     justify-content: center
+
+  .flexbox-container-side-by-side
+    flex-wrap: wrap
+    justify-content: center
+  
+  .flexbox-vertical
+    flex-wrap: wrap-reverse
+    justify-content: start

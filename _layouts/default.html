@@ -27,7 +27,31 @@ layout: compress
 </head>
 <body>
 
-    <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
+    {% if page.title == "Home"%}
+    <section class="outter option1">
+        <section class="video-container">
+          <video class="video" src="assets/background-vid.mp4" autoplay loop playsinline muted></video>
+
+          <div class="callout wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
+            {% if page.tag %}
+                <div class="post">
+            {% else %}
+                {% if showHeader != true %}
+                    <div class="page {{ page.title | downcase }}">
+                {% else %}
+                    <div class="{{ page.title | downcase }}">
+                {% endif %}
+            {% endif %}
+    
+                {{ content }}
+            </div>
+        </div>
+
+        </section>
+    </section>
+
+    {% else %}
+    <div class="callout wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
             <div class="post">
         {% else %}
@@ -41,6 +65,7 @@ layout: compress
             {{ content }}
         </div>
     </div>
+    {% endif %}
 
     {% include icons.html %}
 
