@@ -1,9 +1,9 @@
 # main text of home
 name: Ashwin Pilgaonkar
-bio: Software Engineer
+bio: Senior Software Engineer
 
 # twitter summary info
-description: A personal portfolio website
+description: Personal website
 
 # if it's an external image, update below for true
 # better with square images
@@ -37,14 +37,14 @@ disqus:
 # facebook: myfacebook
 # twitter: mytwitter
 # google: mygoogle
-# instagram: myinstagram
 # pinterest: mypinterest
 linkedin: ashwinpilgaonkar
-youtube: channel/UCURkCLSg9gedgkItsXGAEhQ
+youtube: '@thepianoman-ashwin'
 # spotify: myspotify
 github: ashwinpilgaonkar
 # lastfm: mylastfm
-stackoverflow: 7847219/ashwin-pilgaonkar
+instagram: ashwin.pilgaonkar
+# stackoverflow: 7847219/ashwin-pilgaonkar
 # quora: Ashwin-Pilgaonkar
 # reddit: username
 # medium: medium
