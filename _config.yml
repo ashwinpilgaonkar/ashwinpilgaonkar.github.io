@@ -10,6 +10,10 @@ description: Personal website
 external-image: false
 picture: assets/images/profile.jpg
 
+# your site color theme, true for dark theme, 
+# false to light theme, auto to switch with system.
+dark-theme: false
+
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
@@ -23,10 +27,6 @@ permalink: /:title/
 
 # To enable google analytics, supply your token below
 analytics-google: 'G-R75VLKNQQP'
-
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
@@ -71,10 +71,6 @@ authors:
 # normal = 560px / large = 810px
 width: normal
 
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
-
 # if you don't need projects, comment the *projects* configs below
 projects: true
 skills: true
@@ -93,15 +89,26 @@ show-tags: true
 related: true
 
 # Display links for next and previous posts for the specified categories
-post-advance-links:
+post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: false
+show-author: true
 
 # do you want some animations?
 animation: true
 
 gems:
+# add default values to specific pages or layouts
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      layout: "post"
+    values:
+      # setting all post to not hidden by default,
+      # can be overridden in the front matter for a specific post
+      hidden: false
+
+plugins:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
@@ -109,3 +116,17 @@ gems:
 
 jekyll-mentions:
     base_url: https://github.com
+compress_html:
+  ignore:
+    envs:
+      - development
+      - stage
+
+exclude:
+  [
+    "README.md",
+    "Gemfile",
+    "Gemfile.lock",
+    "FAQ.md",
+    "vendor",
+  ]
